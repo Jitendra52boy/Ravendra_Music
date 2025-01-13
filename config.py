@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001861619812"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001861619812"))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "1615840272"))
+OWNER_ID = int(getenv("OWNER_ID", "6502237398"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  "BQFTeT0ABijCl1BdyCnpN-g7aL6YdAHBc4jPxY3RaaTJd_8-hzuGjHZI6n6D73eKPHtol8X0jPU9YiHJHufeCbqhd_ABACmHXUpWJzrcvcV9glHbDlv9XjaWFOKLKk7qma_SLFssMlxUR3wJL2uF5W4mjzr-PALVG5zt0k16O87f4yMmwtTuQwVJrdwZUsygMGtKo1hC9yPnG_lFoNYk4N226t2sQlcOX1oh6a-s_9yK5YgDL_pWuqd4K0YqxvdKlPD2gmvHxiWPlygTrbqnLkSiGJaJdWZLi7Scp_XM0PJS-gjB8b6NkUSUl8AV4f-hxdXuKoHVYqXmcKsfbR7BfJJ18ke4fwAAAAGIdx3-AA")
+STRING1 = getenv("STRING_SESSION",  "BQFTeT0AaIJhDehxWlH83___-2ij3QQqdRzGxmRTurDozrYUfyOK82ZhIKUKXgMl1z0qYGdZsUn7PkjaJ9Jz2WFwMaoQxq9PIIci-Sy3CUKqtrCGQYQ_VCGhJ2daFWAMpnWD5hqXWjWWd5fK75kt4YqQfg5ZOQXhbitCWGE9Ie_WM_XyFQtOelZ8uj20z3eXbwhxeHmAYkDn-o02hamx3N9UN_r8xCKK-5qISWRuIQuOAtTMMtS6WOI0p5DxQn3whjn_BE6XbECYQq8dz1bvllRXNaVh8TxIV9BUMUHheVZL71Kn-V76kFPUVqgjxAmiFgUsEUBIuOieMke8AD3sVbvnfv7UqgAAAAGIdx3-AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
