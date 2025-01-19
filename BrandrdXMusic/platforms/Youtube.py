@@ -304,7 +304,9 @@ class YouTubeAPI:
                 res = requests.get(f"https://yt.okflix.top/api/{vid_id}")
                 response = res.json()
                 if response['status'] == 'success':
-                    fpath = f"downlaods/{vid_id}.mp3"
+                    fpath = f"downloads/{vid_id}.mp3"
+                    if os.path.exists(fpath):
+                        return fpath
                     download_link =response['download_link']
                     data = requests.get(download_link)
                     if data.status_code == 200:
