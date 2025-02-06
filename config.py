@@ -8,25 +8,25 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "‎")
+API_ID = int(getenv("API_ID", "18651170"))
+API_HASH = getenv("API_HASH", "‎5e9a549d86d92149142464049d4d70d7")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6220058615:AAGdYuBRSY0zC0ODYfT3CSQdhJCwFmpLJB0")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Raghav23:Raghav23@cluster0.6nrx6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙂𝙃𝘼𝙉𝙎𝙃𝙔𝘼𝙈 𝙭 𝙈𝙐𝙎𝙄𝘾 🎵 🫶🫀")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⌜ɴᴀɴᴏ〆ᴍᴜꜱɪᴄ⌟")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002430579671"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002430579671"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001876553186"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001876553186"))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "6502237398"))
+OWNER_ID = int(getenv("OWNER_ID", "5419936006"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/carxynetok")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/carxywold")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Studyof_Computer_Aplication")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Bca_Discussion21")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  "")
+STRING1 = getenv("STRING_SESSION",  "BQAf70YAU2uFRPzjuyBi7XDoR0U4Z7rO-hJJBlA3TT2Xwxr_iE5EDO1N2LW4xhpbJQ1mVhcDs6etIMKjplhq-lRNBMwkRBzd5v0MJ9ug5VoBzJq5fqAb0DCuBqUN_mpmYIrg1DjqFTIN9ldfGGroQsL0uU-zYunpDiScihJSf2F2PZloOxJi1YDpNJ9B5rb8RXSg4j1l2siBRGQv4i2O36HfiMCZ4l3CS3P6GrHY5rYjcca4KfBUcP9wK6LzVvCVOQUByDLnkR_hqaNPr0AaYIKP7yUhXrdnzDZAIqeIEL9SXPLj2CvUxU7QnebZq8Yuc1MZpUkPUhNx-YS07qHqEXnUTJnmTAAAAAEqTznMAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
